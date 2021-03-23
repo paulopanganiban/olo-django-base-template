@@ -4,7 +4,7 @@ import os
 DEBUG = True
 
 ALLOWED_HOSTS = ['oloproject.eba-mdgm24am.us-west-2.elasticbeanstalk.com']
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = os.environ('SECRET_KEY')
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
