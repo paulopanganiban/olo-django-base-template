@@ -1,0 +1,2 @@
+postgresql fix
+https://medium.com/@aslamahrahman/deploying-django-application-on-aws-elastic-beanstalk-with-postgresql-db-windows-6bbb158ef9c9
