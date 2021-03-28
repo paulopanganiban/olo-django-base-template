@@ -5,6 +5,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['oloproject.eba-mdgm24am.us-west-2.elasticbeanstalk.com']
 SECRET_KEY = os.environ['SECRET_KEY']
+# SECRET_KEY = '=+zl2)zrcv=dduc1@bw)+ab)6x8)97nm**i!vruv)oal@$y4&!'
 if 'RDS_DB_NAME' in os.environ:
     DATABASES = {
         'default': {
