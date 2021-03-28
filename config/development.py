@@ -1,6 +1,6 @@
 from .base import *
 import os
-DEBUG = True
+
 
 ALLOWED_HOSTS = ['oloproject.eba-mdgm24am.us-west-2.elasticbeanstalk.com', '127.0.0.1']
 SECRET_KEY = os.environ['SECRET_KEY']
