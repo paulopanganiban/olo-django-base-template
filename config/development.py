@@ -1,6 +1,5 @@
 from .base import *
 import os
-from decouple import config
 DEBUG = True
 
 ALLOWED_HOSTS = ['oloproject.eba-mdgm24am.us-west-2.elasticbeanstalk.com']
